@@ -8,7 +8,7 @@ Dockerfile for Nginx with autoindex
 Docker image
 ------------
 
-Pull the image from [Docker Hub](https://hub.docker.com/r/dceoy/nginx-autoindex/)
+Pull the image from [Docker Hub](https://hub.docker.com/r/lsjunior/nginx-autoindex/)
 
 ```sh
 $ docker image pull dceoy/nginx-autoindex
@@ -20,7 +20,7 @@ Usage
 Run a web server to serve the current directory at `/` of Nginx
 
 ```sh
-$ docker container run --rm -p 80:80 -v ${PWD}:/var/lib/nginx/html:ro dceoy/nginx-autoindex
+$ docker container run --rm -p 80:80 -v ${PWD}:/var/lib/nginx/html:ro lsjunior/nginx-autoindex
 ```
 
 Run a web server with docker-compose

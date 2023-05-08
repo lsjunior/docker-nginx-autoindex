@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: dceoy/nginx-autoindex:latest
+    image: lsjunior/nginx-autoindex:latest
     ports:
       - 80:80
     volumes:
