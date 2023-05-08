@@ -1,7 +1,7 @@
 docker-nginx-autoindex
 ======================
 
-Dockerfile for Nginx with autoindex
+Dockerfile for Nginx with autoindex, **WITHOUT IPV6!**
 
 [![CI to Docker Hub](https://github.com/dceoy/docker-nginx-autoindex/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/dceoy/docker-nginx-autoindex/actions/workflows/docker-publish.yml)
 
